@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.4" %}
 
 package:
   name: jaconv
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/ikegami-yukino/jaconv/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 8c3553e9dcc551eb4249c503afd886a5e05d7ae02e2f379723f1121466c71dde
+  sha256: bc5b1869a85f82dd26c62977012615c16ddfe5330685cc938905f481534c9e09
 
 build:
   noarch: python
